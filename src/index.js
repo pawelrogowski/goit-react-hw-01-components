@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Profile } from 'components/Profile';
+import App from 'components/App/App';
+import { Profile } from 'components/Profile/Profile';
 import user from 'data/user.json';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Profile
-      username={user.username}
-      tag={user.tag}
-      location={user.location}
-      avatar={user.avatar}
-      stats={user.stats}
-    />
+    <App></App>
   </React.StrictMode>
 );
