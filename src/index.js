@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from 'components/App/App';
-import { Profile } from 'components/Profile/Profile';
-import user from 'data/user.json';
+import { App } from 'components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

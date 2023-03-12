@@ -1,0 +1,48 @@
+.statistics {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+}
+.title {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: rgb(76, 72, 72);
+  text-transform: uppercase;
+  text-align: center;
+}
+.stat-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item {
+  width: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px;
+  color: white;
+  background-color: rgb(36, 36, 202);
+}
+.item0 {
+  composes: item;
+  background-color: rgb(74, 140, 202);
+}
+.item1 {
+  composes: item;
+  background-color: rgb(177, 130, 238);
+}
+.item2 {
+  composes: item;
+  background-color: rgb(255, 115, 0);
+}
+.label {
+  font-size: 12px;
+}

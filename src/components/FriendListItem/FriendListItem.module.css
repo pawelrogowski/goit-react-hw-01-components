@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: left;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px;
+  background-color: white;
+  border: solid rgba(0, 0, 0, 0.178) 1px;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.status-true {
+  composes: status;
+  background-color: green;
+}
+.status-false {
+  composes: status;
+  background-color: red;
+}

@@ -1,0 +1,66 @@
+/* scuffed af, made in a rush */
+.profile {
+  background-color: rgb(234, 236, 243);
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
+  display: block;
+}
+.avatar {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.034);
+  border-radius: 50%;
+  margin: 15px;
+  border: 1px rgba(0, 0, 0, 0.11) solid;
+}
+.description {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 28px;
+  width: 100%;
+}
+.tag {
+  font-size: 18px;
+  margin: 8px auto;
+  margin-bottom: 0;
+  color: #707b88;
+}
+.location {
+  font-size: 18px;
+  margin: 8px auto;
+  color: #707b88;
+}
+.stats {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  color: #707b88;
+}
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgba(0, 0, 0, 0.11) solid;
+  align-items: center;
+  width: calc(100% / 3);
+  padding: 15px;
+  font-size: 16px;
+  background-color: rgb(230, 237, 238);
+}
+.label {
+  color: #707b88;
+  margin-bottom: 5px;
+}
+.quantity {
+  color: black;
+  font-weight: 500;
+}
